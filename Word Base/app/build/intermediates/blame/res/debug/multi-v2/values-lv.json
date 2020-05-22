@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Level 05\\Mobile Application Development\\AndroidStudio\\Word Base\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+            "outputFile": "C:\\Users\\Vageesan\\Documents\\GitHub\\Word_Base\\Word Base\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Vageesan\\.gradle\\caches\\transforms-2\\files-2.1\\1cd7eff88f5e86d0249af2958bf465f0\\core-1.1.0\\res\\values-lv\\values-lv.xml",

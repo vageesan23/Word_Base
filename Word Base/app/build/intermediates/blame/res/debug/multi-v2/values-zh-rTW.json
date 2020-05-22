@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Level 05\\Mobile Application Development\\AndroidStudio\\Word Base\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+            "outputFile": "C:\\Users\\Vageesan\\Documents\\GitHub\\Word_Base\\Word Base\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Vageesan\\.gradle\\caches\\transforms-2\\files-2.1\\f7fa931c10060cb31b4ececcd856b65d\\appcompat-1.1.0\\res\\values-zh-rTW\\values-zh-rTW.xml",

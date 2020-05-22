@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:7:5-29:19
+14        android:allowBackup="true"
+14-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity
+23-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:14:9-117
+24            android:name="com.example.test.MainActivity"
+24-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:14:19-47
+25            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+25-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:14:49-105
+26        <activity android:name="com.example.test.activity.TranslateAll" />
+26-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:15:9-59
+26-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:15:19-56
+27        <activity android:name="com.example.test.activity.Translate" />
+27-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:16:9-56
+27-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:16:19-53
+28        <activity android:name="com.example.test.activity.LanguageSubscription" />
+28-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:17:9-67
+28-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:17:19-64
+29        <activity android:name="com.example.test.activity.Edit" />
+29-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:18:9-51
+29-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:18:19-48
+30        <activity android:name="com.example.test.activity.EditPhrase" />
+30-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:19:9-57
+30-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:19:19-54
+31        <activity android:name="com.example.test.activity.DisplayPhrase" />
+31-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:20:9-60
+31-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:20:19-57
+32        <activity android:name="com.example.test.activity.AddPhrase" />
+32-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:21:9-56
+32-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:21:19-53
+33        <activity
+33-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:22:9-28:20
+34            android:name="com.example.test.SplashActivity"
+34-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:22:19-49
+35            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+35-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:22:51-107
+36            <intent-filter>
+36-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:23:13-27:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:24:17-69
+37-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:24:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:26:17-77
+39-->E:\Level 05\Mobile Application Development\AndroidStudio\Word Base\app\src\main\AndroidManifest.xml:26:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[com.ibm.watson.developer_cloud:android-sdk:0.5.2] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\507cf9484c30a31047d037962091cc4b\jetified-android-sdk-0.5.2\AndroidManifest.xml:12:9-21:20
+44            android:name="com.ibm.watson.developer_cloud.android.library.util.WatsonFileProvider"
+44-->[com.ibm.watson.developer_cloud:android-sdk:0.5.2] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\507cf9484c30a31047d037962091cc4b\jetified-android-sdk-0.5.2\AndroidManifest.xml:13:13-98
+45            android:authorities="com.example.test.com.ibm.watson.developer_cloud.android.provider"
+45-->[com.ibm.watson.developer_cloud:android-sdk:0.5.2] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\507cf9484c30a31047d037962091cc4b\jetified-android-sdk-0.5.2\AndroidManifest.xml:14:13-99
+46            android:exported="false"
+46-->[com.ibm.watson.developer_cloud:android-sdk:0.5.2] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\507cf9484c30a31047d037962091cc4b\jetified-android-sdk-0.5.2\AndroidManifest.xml:15:13-37
+47            android:grantUriPermissions="true" >
+47-->[com.ibm.watson.developer_cloud:android-sdk:0.5.2] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\507cf9484c30a31047d037962091cc4b\jetified-android-sdk-0.5.2\AndroidManifest.xml:16:13-47
+48            <meta-data
+48-->[com.ibm.watson.developer_cloud:android-sdk:0.5.2] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\507cf9484c30a31047d037962091cc4b\jetified-android-sdk-0.5.2\AndroidManifest.xml:17:13-20:25
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->[com.ibm.watson.developer_cloud:android-sdk:0.5.2] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\507cf9484c30a31047d037962091cc4b\jetified-android-sdk-0.5.2\AndroidManifest.xml:18:17-67
+50                android:resource="@xml/provider_paths" >
+50-->[com.ibm.watson.developer_cloud:android-sdk:0.5.2] C:\Users\Vageesan\.gradle\caches\transforms-2\files-2.1\507cf9484c30a31047d037962091cc4b\jetified-android-sdk-0.5.2\AndroidManifest.xml:19:17-55
+51            </meta-data>
+52        </provider>
+53    </application>
+54
+55</manifest>
